@@ -1,0 +1,45 @@
+{
+  "name": "gh-status-methods",
+  "version": "1.0.0",
+  "description": "Get all methods in the Github Status API",
+  "repository": "shinnn/gh-status-methods",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gh",
+    "github",
+    "api",
+    "stat",
+    "stats",
+    "status",
+    "request",
+    "get",
+    "method",
+    "methods",
+    "url",
+    "json",
+    "promise",
+    "promises",
+    "then",
+    "async",
+    "asynchronous",
+    "asynchronously"
+  ],
+  "dependencies": {
+    "gh-status-get": "^1.0.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^2.0.0",
+    "eslint": "^2.10.2",
+    "istanbul": "^0.4.3",
+    "tape": "^4.5.1"
+  }
+}
